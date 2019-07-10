@@ -14,8 +14,8 @@ def map_to_square(source_array)
   source_array.map {|n| n**2}
 end
 
-def reduce_to_total(source_array)
-    source_array.reduce(starting_point){|sum,n| sum + n}
+def reduce_to_total(source_array,s)
+    source_array.reduce(s)(starting_point){|sum,n| sum + n}
 end
 
 def reduce_to_all_true(source_array)
