@@ -16,7 +16,7 @@ end
 
 def reduce_to_total(source_array)
     source_array.reduce{|sum,n| sum + n}
-end
+end{
 
 def reduce_to_all_true(source_array)
   if source_array.all?
